@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comercial Hermanas Risco - Tu Tienda de Confianza</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Font Awesome para iconos modernos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- HEADER CON NAVEGACIÓN -->
+    <!-- ============================================ -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <!-- Logo y nombre -->
+            <div class="logo">
+                <i class="fas fa-store logo-icon"></i>
+                <div class="logo-text">
+                    <h1>Comercial Hermanas Risco</h1>
+                    <span>Tu Tienda de Confianza</span>
+                </div>
+            </div>
+
+            <!-- Menú de navegación desktop -->
+            <nav class="nav-desktop">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#nosotros" class="nav-link"><i class="fas fa-users"></i> Nosotros</a></li>
+                    <li><a href="#productos" class="nav-link"><i class="fas fa-shopping-basket"></i> Productos</a></li>
+                    <li><a href="#limpieza" class="nav-link"><i class="fas fa-broom"></i> Limpieza</a></li>
+                    <li><a href="#ofertas" class="nav-link"><i class="fas fa-tags"></i> Ofertas</a></li>
+                    <li><a href="#contacto" class="nav-link"><i class="fas fa-phone"></i> Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Botón hamburguesa para móvil -->
+            <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+
+        <!-- Menú móvil (se despliega con JS) -->
+        <nav class="nav-mobile" id="nav-mobile">
+            <ul class="nav-mobile-list">
+                <li><a href="#inicio" class="nav-mobile-link"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#nosotros" class="nav-mobile-link"><i class="fas fa-users"></i> Nosotros</a></li>
+                <li><a href="#productos" class="nav-mobile-link"><i class="fas fa-shopping-basket"></i> Productos</a></li>
+                <li><a href="#limpieza" class="nav-mobile-link"><i class="fas fa-broom"></i> Limpieza</a></li>
+                <li><a href="#ofertas" class="nav-mobile-link"><i class="fas fa-tags"></i> Ofertas</a></li>
+                <li><a href="#contacto" class="nav-mobile-link"><i class="fas fa-phone"></i> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ============================================ -->
+    <!-- BANNER PRINCIPAL / HERO -->
+    <!-- ============================================ -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">¡Bienvenidos a <span class="highlight">Hermanas Risco</span>!</h2>
+            <p class="hero-subtitle">Tu tienda de confianza con los mejores productos bolivianos al mejor precio</p>
+            <div class="hero-buttons">
+                <a href="#productos" class="btn btn-primary"><i class="fas fa-shopping-bag"></i> Ver Productos</a>
+                <a href="#ofertas" class="btn btn-secondary"><i class="fas fa-percent"></i> Ver Ofertas</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN QUIÉNES SOMOS -->
+    <!-- ============================================ -->
+    <section class="section about" id="nosotros">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Conócenos</span>
+                <h2 class="section-title">¿Quiénes Somos?</h2>
+                <p class="section-subtitle">Más que una tienda, somos parte de tu familia</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card scroll-reveal">
+                    <div class="about-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Tratamos a cada cliente como parte de nuestra familia, brindando un servicio cálido y amable en cada visita.</p>
+                </div>
+                <div class="about-card scroll-reveal">
+                    <div class="about-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Productos de Calidad</h3>
+                    <p>Seleccionamos cuidadosamente cada producto para garantizar la mejor calidad y frescura para tu hogar.</p>
+                </div>
+                <div class="about-card scroll-reveal">
+                    <div class="about-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Precios Justos</h3>
+                    <p>Trabajamos con márgenes ajustados para ofrecerte los mejores precios del mercado boliviano.</p>
+                </div>
+                <div class="about-card scroll-reveal">
+                    <div class="about-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Variedad Completa</h3>
+                    <p>Desde productos comestibles hasta artículos de limpieza, todo lo que necesitas en un solo lugar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN PRODUCTOS COMESTIBLES -->
+    <!-- ============================================ -->
+    <section class="section products" id="productos">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Nuestros Productos</span>
+                <h2 class="section-title">Productos Comestibles</h2>
+                <p class="section-subtitle">Lo mejor de la gastronomía boliviana para tu mesa</p>
+            </div>
+
+            <!-- Barra de búsqueda y filtros -->
+            <div class="search-filter scroll-reveal">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Buscar productos...">
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="todos">Todos</button>
+                    <button class="filter-btn" data-filter="arroz">Arroz & Grano</button>
+                    <button class="filter-btn" data-filter="lacteos">Lácteos</button>
+                    <button class="filter-btn" data-filter="bebidas">Bebidas</button>
+                    <button class="filter-btn" data-filter="condimentos">Condimentos</button>
+                </div>
+            </div>
+
+            <!-- Grid de productos comestibles -->
+            <div class="products-grid" id="products-grid">
+                <!-- Arroz Fino -->
+                <div class="product-card scroll-reveal" data-category="arroz" data-name="arroz fino">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-img">
+                        <i class="fas fa-bowl-rice"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Arroz Fino</h3>
+                        <p class="product-desc">Arroz de grano largo y fino, ideal para acompañar tus comidas diarias.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 12.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Azúcar Guabirá -->
+                <div class="product-card scroll-reveal" data-category="arroz" data-name="azúcar guabirá">
+                    <div class="product-img">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Azúcar Guabirá</h3>
+                        <p class="product-desc">Azúcar refinada de la marca Guabirá, dulzura garantizada para tu hogar.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 15.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aceite Fino -->
+                <div class="product-card scroll-reveal" data-category="condimentos" data-name="aceite fino">
+                    <div class="product-img">
+                        <i class="fas fa-bottle-droplet"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Aceite Fino</h3>
+                        <p class="product-desc">Aceite vegetal de alta calidad, perfecto para cocinar y freír.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 18.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aceite Rico -->
+                <div class="product-card scroll-reveal" data-category="condimentos" data-name="aceite rico">
+                    <div class="product-badge new">Nuevo</div>
+                    <div class="product-img">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Aceite Rico</h3>
+                        <p class="product-desc">Aceite premium Rico, el sabor tradicional que tu familia conoce.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 20.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leche Pil -->
+                <div class="product-card scroll-reveal" data-category="lacteos" data-name="leche pil">
+                    <div class="product-badge">Favorito</div>
+                    <div class="product-img">
+                        <i class="fas fa-glass-water"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Leche Pil</h3>
+                        <p class="product-desc">Leche Pil fresca y nutritiva, el mejor acompañante para tu desayuno.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 6.50</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Yogur Pil -->
+                <div class="product-card scroll-reveal" data-category="lacteos" data-name="yogur pil">
+                    <div class="product-img">
+                        <i class="fas fa-jar"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Yogur Pil</h3>
+                        <p class="product-desc">Yogur Pil cremoso y delicioso, disponible en varios sabores.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 4.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galletas Mabel's -->
+                <div class="product-card scroll-reveal" data-category="arroz" data-name="galletas mabels">
+                    <div class="product-img">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Galletas Mabel's</h3>
+                        <p class="product-desc">Galletas Mabel's crujientes y deliciosas, el snack perfecto para toda la familia.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 5.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chocolates Para Ti -->
+                <div class="product-card scroll-reveal" data-category="arroz" data-name="chocolates para ti">
+                    <div class="product-img">
+                        <i class="fas fa-candy-cane"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chocolates Para Ti</h3>
+                        <p class="product-desc">Chocolates bolivianos Para Ti, dulzura hecha con amor y tradición.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 8.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chocolates Breick -->
+                <div class="product-card scroll-reveal" data-category="arroz" data-name="chocolates breick">
+                    <div class="product-badge new">Nuevo</div>
+                    <div class="product-img">
+                        <i class="fas fa-cookie-bite"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chocolates Breick</h3>
+                        <p class="product-desc">Chocolates Breick, el sabor intenso que los bolivianos prefieren.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 7.50</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fideos Don Vittorio -->
+                <div class="product-card scroll-reveal" data-category="arroz" data-name="fideos don vittorio">
+                    <div class="product-img">
+                        <i class="fas fa-bowl-food"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Fideos Don Vittorio</h3>
+                        <p class="product-desc">Fideos Don Vittorio de trigo duro, perfectos para sopas y guisos.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 4.50</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Café Princesa -->
+                <div class="product-card scroll-reveal" data-category="bebidas" data-name="café princesa">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-img">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Café Princesa</h3>
+                        <p class="product-desc">Café Princesa molido, aroma intenso para empezar tu día con energía.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 22.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Café Copacabana -->
+                <div class="product-card scroll-reveal" data-category="bebidas" data-name="café copacabana">
+                    <div class="product-img">
+                        <i class="fas fa-mug-saucer"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Café Copacabana</h3>
+                        <p class="product-desc">Café Copacabana, el sabor tradicional de los Yungas bolivianos.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 20.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agua Vital -->
+                <div class="product-card scroll-reveal" data-category="bebidas" data-name="agua vital">
+                    <div class="product-img">
+                        <i class="fas fa-droplet"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Agua Vital</h3>
+                        <p class="product-desc">Agua purificada Vital, hidratación pura para toda tu familia.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 5.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agua Cristal -->
+                <div class="product-card scroll-reveal" data-category="bebidas" data-name="agua cristal">
+                    <div class="product-img">
+                        <i class="fas fa-faucet-drip"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Agua Cristal</h3>
+                        <p class="product-desc">Agua Cristal, la pureza del manantial en cada gota.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 4.50</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coca-Cola -->
+                <div class="product-card scroll-reveal" data-category="bebidas" data-name="coca-cola">
+                    <div class="product-badge">Favorito</div>
+                    <div class="product-img">
+                        <i class="fas fa-wine-bottle"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Coca-Cola</h3>
+                        <p class="product-desc">Refresco Coca-Cola, el sabor único que refresca tus momentos especiales.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 10.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pepsi -->
+                <div class="product-card scroll-reveal" data-category="bebidas" data-name="pepsi">
+                    <div class="product-img">
+                        <i class="fas fa-bottle-water"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pepsi</h3>
+                        <p class="product-desc">Refresco Pepsi, la elección refrescante para compartir con amigos.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 9.50</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Avena Quaker -->
+                <div class="product-card scroll-reveal" data-category="arroz" data-name="avena quaker">
+                    <div class="product-img">
+                        <i class="fas fa-wheat-awn"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Avena Quaker</h3>
+                        <p class="product-desc">Avena Quaker, el desayuno nutritivo que te da energía todo el día.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 16.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Té Windsor -->
+                <div class="product-card scroll-reveal" data-category="bebidas" data-name="té windsor">
+                    <div class="product-img">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Té Windsor</h3>
+                        <p class="product-desc">Té Windsor, variedad de sabores para disfrutar en cualquier momento.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 8.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mayonesa Magra -->
+                <div class="product-card scroll-reveal" data-category="condimentos" data-name="mayonesa magra">
+                    <div class="product-img">
+                        <i class="fas fa-jar-wheat"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mayonesa Magra</h3>
+                        <p class="product-desc">Mayonesa Magra, cremosa y deliciosa para tus sandwiches y ensaladas.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 11.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salsa Kris -->
+                <div class="product-card scroll-reveal" data-category="condimentos" data-name="salsa kris">
+                    <div class="product-badge new">Nuevo</div>
+                    <div class="product-img">
+                        <i class="fas fa-pepper-hot"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Salsa Kris</h3>
+                        <p class="product-desc">Salsa Kris, el toque picante y sabroso que tus comidas necesitan.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 7.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN PRODUCTOS DE LIMPIEZA -->
+    <!-- ============================================ -->
+    <section class="section cleaning" id="limpieza">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Hogar Limpio</span>
+                <h2 class="section-title">Productos de Limpieza</h2>
+                <p class="section-subtitle">Mantén tu hogar impecable con las mejores marcas</p>
+            </div>
+
+            <div class="products-grid cleaning-grid" id="cleaning-grid">
+                <!-- Jabón Bolívar -->
+                <div class="product-card scroll-reveal" data-name="jabón bolívar">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-soap"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Jabón Bolívar</h3>
+                        <p class="product-desc">Jabón Bolívar, suavidad y limpieza para tu piel con aroma refrescante.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 3.50</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detergente Omo -->
+                <div class="product-card scroll-reveal" data-name="detergente omo">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-shirt"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Detergente Omo</h3>
+                        <p class="product-desc">Detergente Omo, poder de limpieza superior para tu ropa más delicada.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 25.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detergente Ace -->
+                <div class="product-card scroll-reveal" data-name="detergente ace">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-socks"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Detergente Ace</h3>
+                        <p class="product-desc">Detergente Ace, limpieza profunda y cuidado para tus prendas favoritas.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 23.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloro Patito -->
+                <div class="product-card scroll-reveal" data-name="cloro patito">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cloro Patito</h3>
+                        <p class="product-desc">Cloro Patito, desinfección total para baños, pisos y superficies.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 8.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Papel Higienol -->
+                <div class="product-card scroll-reveal" data-name="papel higienol">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Papel Higienol</h3>
+                        <p class="product-desc">Papel higiénico Higienol, suavidad y resistencia en cada hoja.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 12.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Papel Scott -->
+                <div class="product-card scroll-reveal" data-name="papel scott">
+                    <div class="product-badge">Favorito</div>
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-toilet-paper"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Papel Scott</h3>
+                        <p class="product-desc">Papel Scott, calidad reconocida mundialmente para tu higiene personal.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 14.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desinfectante Ayudín -->
+                <div class="product-card scroll-reveal" data-name="desinfectante ayudín">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-spray-can-sparkles"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Desinfectante Ayudín</h3>
+                        <p class="product-desc">Desinfectante Ayudín, elimina gérmenes y deja un aroma fresco en tu hogar.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 10.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lavavajilla Sapolio -->
+                <div class="product-card scroll-reveal" data-name="lavavajilla sapolio">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-pump-soap"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Lavavajilla Sapolio</h3>
+                        <p class="product-desc">Lavavajilla Sapolio, espuma abundante que elimina la grasa al instante.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 9.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Esponjas Virutex -->
+                <div class="product-card scroll-reveal" data-name="esponjas virutex">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-sponge"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Esponjas Virutex</h3>
+                        <p class="product-desc">Esponjas Virutex, duraderas y efectivas para todo tipo de limpieza.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 3.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Limpiavidrios Glassex -->
+                <div class="product-card scroll-reveal" data-name="limpiavidrios glassex">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Limpiavidrios Glassex</h3>
+                        <p class="product-desc">Limpiavidrios Glassex, brillo cristalino en ventanas y espejos.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 11.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Suavizante Downy -->
+                <div class="product-card scroll-reveal" data-name="suavizante downy">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Suavizante Downy</h3>
+                        <p class="product-desc">Suavizante Downy, ropa suave y con aroma duradero todo el día.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 18.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ambientador Glade -->
+                <div class="product-card scroll-reveal" data-name="ambientador glade">
+                    <div class="product-img cleaning-img">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Ambientador Glade</h3>
+                        <p class="product-desc">Ambientador Glade, fragancias frescas que transforman tu hogar.</p>
+                        <div class="product-footer">
+                            <span class="product-price">Bs. 15.00</span>
+                            <button class="product-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECCIÓN OFERTAS DESTACADAS (CARRUSEL) -->
+    <!-- ============================================ -->
+    <section class="section offers" id="ofertas">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">No te lo pierdas</span>
+                <h2 class="section-title">Ofertas Destacadas</h2>
+                <p class="section-subtitle">Las mejores promociones de la semana</p>
+            </div>
+
+            <!-- Carrusel de ofertas -->
+            <div class="offers-carousel" id="offers-carousel">
+                <div class="offers-track" id="offers-track">
+                    <!-- Oferta 1 -->
+                    <div class="offer-card">
+                        <div class="offer-badge">-20%</div>
+                        <div class="offer-img">
+                            <i class="fas fa-bowl-rice"></i>
+                        </div>
+                        <div class="offer-info">
+                            <h3>Combo Arroz + Azúcar</h3>
+                            <p>Arroz Fino + Azúcar Guabirá</p>
+                            <div class="offer-prices">
+                                <span class="offer-old">Bs. 27.00</span>
+                                <span class="offer-new">Bs. 21.60</span>
+                            </div>
+                            <button class="btn btn-offer">Aprovechar</button>
+                        </div>
+                    </div>
+
+                    <!-- Oferta 2 -->
+                    <div class="offer-card">
+                        <div class="offer-badge">-15%</div>
+                        <div class="offer-img">
+                            <i class="fas fa-glass-water"></i>
+                        </div>
+                        <div class="offer-info">
+                            <h3>Pack Lácteos Pil</h3>
+                            <p>4 Leches Pil + 2 Yogures</p>
+                            <div class="offer-prices">
+                                <span class="offer-old">Bs. 34.00</span>
+                                <span class="offer-new">Bs. 28.90</span>
+                            </div>
+                            <button class="btn btn-offer">Aprovechar</button>
+                        </div>
+                    </div>
+
+                    <!-- Oferta 3 -->
+                    <div class="offer-card">
+                        <div class="offer-badge">-25%</div>
+                        <div class="offer-img">
+                            <i class="fas fa-mug-hot"></i>
+                        </div>
+                        <div class="offer-info">
+                            <h3>Duo de Café</h3>
+                            <p>Café Princesa + Café Copacabana</p>
+                            <div class="offer-prices">
+                                <span class="offer-old">Bs. 42.00</span>
+                                <span class="offer-new">Bs. 31.50</span>
+                            </div>
+                            <button class="btn btn-offer">Aprovechar</button>
+                        </div>
+                    </div>
+
+                    <!-- Oferta 4 -->
+                    <div class="offer-card">
+                        <div class="offer-badge">-30%</div>
+                        <div class="offer-img">
+                            <i class="fas fa-shirt"></i>
+                        </div>
+                        <div class="offer-info">
+                            <h3>Combo Limpieza</h3>
+                            <p>Omo + Cloro Patito + Ayudín</p>
+                            <div class="offer-prices">
+                                <span class="offer-old">Bs. 43.00</span>
+                                <span class="offer-new">Bs. 30.10</span>
+                            </div>
+                            <button class="btn btn-offer">Aprovechar</button>
+                        </div>
+                    </div>
+
+                    <!-- Oferta 5 -->
+                    <div class="offer-card">
+                        <div class="offer-badge">-10%</div>
+                        <div class="offer-img">
+                            <i class="fas fa-bottle-water"></i>
+                        </div>
+                        <div class="offer-info">
+                            <h3>Pack Refrescos</h3>
+                            <p>Coca-Cola + Pepsi + Agua Vital</p>
+                            <div class="offer-prices">
+                                <span class="offer-old">Bs. 24.50</span>
+                                <span class="offer-new">Bs. 22.05</span>
+                            </div>
+                            <button class="btn btn-offer">Aprovechar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles del carrusel -->
+                <button class="carousel-btn prev" id="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-btn next" id="carousel-next"><i class="fas fa-chevron-right"></i></button>
+
+                <!-- Indicadores -->
+                <div class="carousel-dots" id="carousel-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================ -->
+    <footer class="footer" id="contacto">
+        <div class="footer-top">
+            <div class="container footer-grid">
+                <!-- Info de la tienda -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-store"></i>
+                        <h3>Comercial Hermanas Risco</h3>
+                    </div>
+                    <p class="footer-desc">Tu tienda de confianza con los mejores productos bolivianos. Calidad, precio justo y atención familiar desde hace más de 10 años.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Horarios -->
+                <div class="footer-col">
+                    <h4><i class="fas fa-clock"></i> Horarios de Atención</h4>
+                    <ul class="footer-list">
+                        <li><span>Lunes a Viernes:</span> 7:00 AM - 9:00 PM</li>
+                        <li><span>Sábados:</span> 7:00 AM - 10:00 PM</li>
+                        <li><span>Domingos:</span> 8:00 AM - 8:00 PM</li>
+                        <li><span>Feriados:</span> 8:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+
+                <!-- Contacto -->
+                <div class="footer-col">
+                    <h4><i class="fas fa-phone-alt"></i> Contacto</h4>
+                    <ul class="footer-list">
+                        <li><i class="fas fa-phone"></i> +591 7XXXXXXX</li>
+                        <li><i class="fas fa-envelope"></i> hermanasrisco@gmail.com</li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp disponible</li>
+                    </ul>
+                </div>
+
+                <!-- Ubicación -->
+                <div class="footer-col">
+                    <h4><i class="fas fa-map-marker-alt"></i> Ubicación</h4>
+                    <ul class="footer-list">
+                        <li><i class="fas fa-home"></i> Calle Principal #123</li>
+                        <li><i class="fas fa-city"></i> Zona Centro</li>
+                        <li><i class="fas fa-flag"></i> Bolivia</li>
+                    </ul>
+                    <a href="https://maps.google.com" target="_blank" class="footer-map-link">
+                        <i class="fas fa-map"></i> Ver en Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Comercial Hermanas Risco. Todos los derechos reservados.</p>
+                <p>Hecho con <i class="fas fa-heart"></i> en Bolivia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!-- BOTÓN WHATSAPP FLOTANTE -->
+    <!-- ============================================ -->
+    <a href="https://wa.me/5917XXXXXXX" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">¡Escríbenos!</span>
+    </a>
+
+    <!-- ============================================ -->
+    <!-- BOTÓN VOLVER ARRIBA -->
+    <!-- ============================================ -->
+    <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ============================================ -->
+    <!-- MENSAJE EMERGENTE DE BIENVENIDA -->
+    <!-- ============================================ -->
+    <div class="welcome-modal" id="welcome-modal">
+        <div class="welcome-content">
+            <button class="welcome-close" id="welcome-close"><i class="fas fa-times"></i></button>
+            <div class="welcome-icon">
+                <i class="fas fa-store"></i>
+            </div>
+            <h2>¡Bienvenido a Hermanas Risco!</h2>
+            <p>Gracias por visitarnos. Explora nuestros productos, aprovecha nuestras ofertas y no dudes en contactarnos por WhatsApp para cualquier consulta.</p>
+            <button class="btn btn-primary" id="welcome-btn">¡Empezar a comprar!</button>
+        </div>
+    </div>
+
+    <!-- Overlay del modal -->
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <!-- ============================================ -->
+    <!-- SCRIPTS -->
+    <!-- ============================================ -->
+    <script src="app.js"></script>
+</body>
+</html>
